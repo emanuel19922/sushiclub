@@ -1,0 +1,137 @@
+.DivPrincipal {
+  z-index: 1000;
+  position: absolute;
+  width: 100%;
+}
+
+.DivPrincipal .suhsih1 {
+  color: aliceblue;
+  font-family: emoji;
+  font-size: 60px;
+}
+
+.DivPrincipal .navNavegacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  height: 35px;
+}
+
+.DivPrincipal .navNavegacion .navNavegacion_title {
+  text-decoration: none;
+  margin-left: 100px;
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+.DivPrincipal .navNavegacion .navNavegacion_Ulprins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.DivPrincipal .navNavegacion .navNavegacion_Ulprins .navNavegacio__LIprins {
+  margin-right: 50px;
+}
+
+.sectionmain {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+}
+
+.sectionmain .sectionmain__Divsec {
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionmain .sectionmain__TiTle {
+  border: solid 1px;
+  border-radius: 2%;
+  background-color: #F4F9F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 450px;
+  width: 350px;
+  margin: 50px;
+}
+
+.sectionmain .sectionmain__TiTle .sectionmain__img22 {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.sectionmain .sectionmain__TiTle .sectionmain__titleh4 {
+  padding: 10px;
+}
+
+.sectionnosotros {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+}
+
+.sectionnosotros .sectionnosotros_ImgNootros {
+  margin-left: 50px;
+}
+
+.sectionnosotros .sectionnosotros_Productos {
+  margin-left: 50px;
+  width: 500px;
+}
+
+.fotdiv {
+  background-color: black;
+  height: 200px;
+}
+
+.fotdiv .fotdiv__ulfoot {
+  list-style: none;
+}
+
+.fotdiv .fotdiv__ulfoot .fotdiv__Navega {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.divifram {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=estilos.css.map */

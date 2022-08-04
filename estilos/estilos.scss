@@ -1,0 +1,130 @@
+.DivPrincipal {
+    .suhsih1 {
+        color: aliceblue;
+        font-family: emoji;
+        font-size: 60px;
+    }
+
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+
+    .navNavegacion {
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        height: 35px;
+
+        .navNavegacion_title {
+            text-decoration: none;
+            margin-left: 100px;
+            color: azure;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+        }
+
+        .navNavegacion_Ulprins {
+            display: flex;
+            list-style: none;
+
+            .navNavegacio__LIprins {
+                margin-right: 50px;
+            }
+
+        }
+
+    }
+
+}
+
+.sectionmain {
+
+    height: 500px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: auto;
+
+    .sectionmain__Divsec {
+        height: 450px;
+        display: flex;
+        align-items: center;
+
+        // background-image: url(../image/pexels-polina-tankilevitch-4725637.jpg);
+        // background-position: right;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+
+        // opacity: 0.8;
+
+    }
+
+    .sectionmain__TiTle {
+        border: solid 1px;
+        border-radius: 2%;
+        background-color: #F4F9F9;
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        width: 350px;
+       margin: 50px;
+
+        .sectionmain__img22{
+            border-radius: 50%;
+            width: 200px;
+        }
+
+        .sectionmain__titleh4 {
+
+            padding: 10px;
+        }
+
+    }
+
+
+}
+
+.sectionnosotros {
+   margin-top: 100px;
+    display: flex;
+    height: 600px;
+
+
+    .sectionnosotros_ImgNootros {
+      
+        margin-left: 50px;
+    }
+
+    .sectionnosotros_Productos {
+        margin-left: 50px;
+        width: 500px;
+    }
+}
+
+.fotdiv {
+    background-color: black;
+    height: 200px;
+
+    .fotdiv__ulfoot {
+        list-style: none;
+
+        .fotdiv__Navega {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+    }
+
+
+}
+
+.divifram {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
