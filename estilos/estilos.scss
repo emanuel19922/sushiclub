@@ -39,11 +39,12 @@
 
 .sectionmain {
 
-    height: 500px;
+    height: 620px;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 
     width: auto;
 
@@ -62,9 +63,9 @@
     }
 
     .sectionmain__TiTle {
-        border: solid 1px;
+        border: groove 1px;
         border-radius: 2%;
-        background-color: #F4F9F9;
+        background-color:#f3f3f333;
         display: flex;
 
         flex-direction: column;
@@ -72,9 +73,9 @@
         align-items: center;
         height: 450px;
         width: 350px;
-       margin: 50px;
+        margin: 50px;
 
-        .sectionmain__img22{
+        .sectionmain__img22 {
             border-radius: 50%;
             width: 200px;
         }
@@ -89,20 +90,36 @@
 
 }
 
+.div_wasap {
+
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+}
+
 .sectionnosotros {
-   margin-top: 100px;
+    margin-top: -20px;
     display: flex;
     height: 600px;
 
 
+
     .sectionnosotros_ImgNootros {
-      
+
         margin-left: 50px;
     }
 
     .sectionnosotros_Productos {
+        border-radius: 2%;
+        background-color: #f3f3f333;
+        
         margin-left: 50px;
         width: 500px;
+        padding: 20px;
+        height: 600px;
     }
 }
 
@@ -111,15 +128,37 @@
     height: 200px;
 
     .fotdiv__ulfoot {
+        border-right: solid 1px wheat;
         list-style: none;
+
+        .fotdiv__lista {
+            margin-top: 10px;
+        }
 
         .fotdiv__Navega {
             text-decoration: none;
             color: aliceblue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            // margin-top: 20px;
+
         }
 
     }
 
+    .fotdiv__ulfootredes {
+        margin-top: 40px;
+        list-style: none;
+        display: flex;
+
+        .navNavegacio__LIprins {
+            margin: 15px;
+        }
+
+    }
+
+    .select_name {
+        margin: 10px;
+    }
 
 }
 
